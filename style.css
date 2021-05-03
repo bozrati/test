@@ -1,0 +1,107 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+.container{
+    background: url("images/image9.jpg")rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 20px 25px;
+}
+span{
+    cursor: pointer;
+    padding: 10px;
+    height: 35px;
+    color: white;
+    margin-top: 5px;
+}
+span>a{
+    text-transform: none;
+    font-family: brush script mt;
+    font-size: 200%;    
+}
+.a1{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: poppins;
+    font-size: 300%;
+}
+.a2{
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    font-family: calibri light;
+    font-size: 200%;
+    color: white;
+
+}
+
+.a3{
+    padding: 7px;
+    border-radius: 1px;
+    border: 5px lightseagreen solid;
+    background: lightseagreen;
+    color: white;
+    height: 35px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 15px;
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+
+}
+.a4{
+    position: absolute;
+    display: flex;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: poppins;
+    font-size: 200%;
+}
+
+.a5{
+    position: absolute;
+    display: flex;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: courier;
+}
+.a7{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-90%,-50%);
+    font-weight: 400;
+
+}
